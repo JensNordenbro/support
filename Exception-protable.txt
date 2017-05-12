@@ -1,0 +1,106 @@
+Unhandled Exception: System.IO.FileNotFoundException: Could not load file or assembly 
+'Microsoft.Win32.Registry, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11
+d50a3a'. The system cannot find the file specified.
+
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRe
+positoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1
+ keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCa
+llSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitSingleton(SingletonCallSite singletonCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCa
+llSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCa
+llSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitSingleton(SingletonCallSite singletonCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCa
+llSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass17_0.<
+RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type service
+Type)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetReq
+uiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetReq
+uiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.DataProtectionServiceCollectionExtensio
+ns.<>c.<AddDataProtectionServices>b__2_0(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitFactoryService(FactoryService factoryService, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCa
+llSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitSingleton(SingletonCallSite singletonCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCa
+llSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCa
+llSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitTransient(TransientCallSite transientCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCa
+llSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass17_0.<
+RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type service
+Type)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetReq
+uiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Identity.UserManager`1..ctor(IUserStore`1 store, IOptions`1
+ optionsAccessor, IPasswordHasher`1 passwordHasher, IEnumerable`1 userValidators, IEnu
+merable`1 passwordValidators, ILookupNormalizer keyNormalizer, IdentityErrorDescriber 
+errors, IServiceProvider services, ILogger`1 logger)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCa
+llSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCa
+llSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCa
+llSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.V
+isitSingleton(SingletonCallSite singletonCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCa
+llSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass17_0.<
+RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type service
+Type)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetSer
+vice[T](IServiceProvider provider)
+   at AutoTransfer.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env,
+ ILoggerFactory loggerFactory) in C:\Users\jnb\Source\Repos\auto-update-server\AutoSer
+verDropFolder\Startup.cs:line 99
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilde
+r app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__Disp
+layClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()
+   at AutoTransfer.Program.Main() in C:\Users\jnb\Source\Repos\auto-update-server\Auto
